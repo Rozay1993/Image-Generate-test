@@ -48,7 +48,7 @@ const SaveImages = async (image) => {
 	response.data.pipe(writer);
 
 	return new Promise((resolve, reject) => {
-		writer.on('drain', resolve(fileName));
+		writer.on('finish', resolve(fileName));
 		writer.on('error', reject);
 	});
 };

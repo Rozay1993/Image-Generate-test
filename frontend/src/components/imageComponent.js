@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { Image } from 'react-bootstrap';
 const imageUrlPrefix = process.env.REACT_APP_IMAGE_URL;
 
