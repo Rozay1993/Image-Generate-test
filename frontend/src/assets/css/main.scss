@@ -1,0 +1,12 @@
+@import '~bootstrap/scss/bootstrap';
+
+@import './header.scss';
+@import './imageComponent.scss';
+
+.input-prompt {
+	.loading-spinner {
+		font-size: 10px;
+		height: 15px;
+		width: 15px;
+	}
+}
